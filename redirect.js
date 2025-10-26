@@ -46,7 +46,7 @@ xhr({
 		
 		if (hash) {
 			// Redirect
-			var url = hash.indexOf('http') == 0? hash : 'http://link-short.github.io/' + hash;
+			var url = hash.indexOf('https') == 0? hash : 'https://link-short.github.io/lnks/' + hash;
 			$('section.redirecting > p').innerHTML = 'Redirecting to <a href="' + url + '">' + url + '</a>…';
 			location.href = url;
 		}
