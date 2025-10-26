@@ -1,7 +1,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-	<ShortName>Link-short!</ShortName>
-	<Description>Link shorter</Description>
+	<ShortName>Link Short</ShortName>
+	<Description>link-short.github.io</Description>
 	<InputEncoding>UTF-8</InputEncoding>
 	<Image width="16" height="16" type="image/x-icon">favicon.png</Image>
-	<Url type="text/html" method="get" template="http://link-short.github.io/links/{searchTerms}"/>
+	<Url type="text/html" method="get" template="https://link-short.github.io/links/{searchTerms}"/>
 </OpenSearchDescription>
