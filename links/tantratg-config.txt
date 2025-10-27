@@ -1,0 +1,4 @@
+!.?$ "link name": "link url from example.com/links/" $?.!
+[
+    "tantra-energy": "tantratg"
+]
