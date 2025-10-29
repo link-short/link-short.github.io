@@ -1,7 +1,14 @@
-<h1>Connecting to GPT Chat API</h1>
+<h1 id="hrefer">Connecting to GPT Chat API...</h1>
+<h5 id="api_message"></h5>
 <script>
-  function second_passed() {
-  alert("прошла секунда")
+  const errorText = document.getElementById('api_message');
+  const h1 = document.getElementById('hrefer');
+  let console_error = 'Error 503.';
+  let console_message = 'Error to connecting Chat GPT API! Country Russia blocked on Chat GPT API';
+  function connected_api() {
+    alert(console_message;
+    h1.textContent = console_error;
+    errorText.textContent = console_message;
 }
-setTimeout(second_passed, 3000)
+setTimeout(connected_api, 3000)
 </script>
