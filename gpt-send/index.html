@@ -21,6 +21,11 @@
     h1.textContent = console_error;
     errorText.textContent = console_message;
     backPg.style.visibility = 'visible';
-}
-setTimeout(connected_api, 3000)
+  }
+  setTimeout(connected_api, 3000)
+
+  backPg.addEventListener('click', function() {
+  // Код, который выполнится при нажатии кнопки
+  alert('Кнопка была нажата!');
+});
 </script>
