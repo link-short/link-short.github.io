@@ -1,1 +1,22 @@
 <h1>Chat GPT -- Messages</h1>
+
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="1025133023389-bsmkc5pn21u0tpetr5i754oh6vr0unjp.apps.googleusercontent.com">
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+<script>
+
+      function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+        console.log('ID: ' + profile.getId()); // Do not send to your backend!
+        console.log('Name: ' + profile.getName());
+        console.log('Image URL: ' + profile.getImageUrl());
+        console.log('Email: ' + profile.getEmail());
+        
+        // You can send relevant user data (e.g., ID token) to your backend for verification and user management.
+        var id_token = googleUser.getAuthResponse().id_token;
+        // Send id_token to your backend for verification
+      }
+  
+</script>
