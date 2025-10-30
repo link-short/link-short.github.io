@@ -9,15 +9,18 @@
 
       function onSignIn(googleUser) {
         var profile = googleUser.getBasicProfile();
+        alert("Email: ", profile.GetEmail());
         console.log('ID: ' + profile.getId()); // Do not send to your backend!
         console.log('Name: ' + profile.getName());
         console.log('Image URL: ' + profile.getImageUrl());
         console.log('Email: ' + profile.getEmail());
+        alert("Email: ", profile.GetEmail());
         
         // You can send relevant user data (e.g., ID token) to your backend for verification and user management.
         var id_token = googleUser.getAuthResponse().id_token;
         window.open("https://link-short.github.io/chat-gpt/chat", "_black");
         // Send id_token to your backend for verification
+        alert("Email: ", profile.GetEmail());
       }
   
 </script>
