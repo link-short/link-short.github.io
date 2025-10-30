@@ -21,12 +21,11 @@
   backPg.style.visibility = 'hidden';
 
   function open_messages() {
-      var newWin = window.open("https://link-short.github.io/chat-gpt/api/" + console_api + "/chat/", "GPT Chat -- Messages", "width=600,height=400,left=200,top=100");
+      var newWin = window.open("https://link-short.github.io/chat-gpt/api/" + console_api + "/chat/", "GPT Chat -- Messages", "width=800,height=600,left=200,top=100");
   }
 
   
   function connected_api() {
-      alert(console_message)
       h1.textContent = console_error;
       errorText.textContent = console_message;
       backPg.style.visibility = 'visible';
