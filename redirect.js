@@ -38,7 +38,7 @@ document.body.className = 'redirecting';
 var slug = location.pathname.slice(1);
 
 xhr({
-	src: 'secrets.json',
+	src: 'https://link-short.github.io/secrets.json',
 	onsuccess: function () {
 		var slugs = JSON.parse(this.responseText);
 		
